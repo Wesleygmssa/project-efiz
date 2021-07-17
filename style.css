@@ -37,8 +37,8 @@ img {
   --title-font-size: 1.875rem;
   --subtitle-font-size: 1rem;
 
-  --title-font: "Poppins", sans-serif;
-  --body-font: "DM Sans", sans-serif;
+  --title-font: 'Poppins', sans-serif;
+  --body-font: 'DM Sans', sans-serif;
 }
 
 /*===  BASE ============================ */
@@ -182,7 +182,7 @@ nav ul li a.active {
 }
 
 nav ul li a::after {
-  content: "";
+  content: '';
   width: 0%;
   height: 2px;
   background: var(--base-color);
@@ -274,7 +274,7 @@ nav.show div.icon-close {
 }
 
 #home .image::before {
-  content: "";
+  content: '';
   height: 100%;
   width: 100%;
   background: var(--base-color);
@@ -322,7 +322,7 @@ nav.show div.icon-close {
 }
 
 #about .image::before {
-  content: "";
+  content: '';
   height: 100%;
   width: 100%;
   background: var(--base-color);
@@ -613,7 +613,7 @@ footer .social a:hover {
 
   /* services */
   .cards {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .card {
