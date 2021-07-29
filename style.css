@@ -197,7 +197,7 @@ nav ul li a::after {
   content: '';
   width: 0%;
   height: 2px;
-  background: var(--base-color);
+  background: #fff;
 
   position: absolute;
   left: 0;
@@ -593,9 +593,7 @@ footer .social a:hover {
   a {
     list-style: none;
   }
-  .afooter {
-    color: white;
-  }
+
   nav .icon-menu {
     display: none;
   }
