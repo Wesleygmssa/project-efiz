@@ -73,7 +73,7 @@ body {
 }
 
 .button:hover {
-  background-color: hsl(0, 90%, 50%);
+  background-color: hsl(0, 90%, 35%);
 }
 
 .divider-1 {
@@ -190,7 +190,7 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a.active {
-  color: hsl(0, 90%, 50%) !important;
+  /* color: hsl(0, 90%, 50%) !important; */
 }
 
 nav ul li a::after {
